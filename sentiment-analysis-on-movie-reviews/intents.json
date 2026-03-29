@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "Greetings"],
+      "responses": ["Hello! How can I help you today with NLP or AI queries?", "Hi there! I'm your NLP & AI assistant. What's on your mind?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+      "responses": ["Goodbye! Have a great day.", "See you soon! Happy learning."]
+    },
+    {
+      "tag": "nlp_concepts",
+      "patterns": [
+        "What is NLP?",
+        "Explain Natural Language Processing",
+        "What are NLP concepts?",
+        "Tell me about Tokenization",
+        "What is Lemmatization?",
+        "What is Stemming?",
+        "Explain NER",
+        "Named Entity Recognition"
+      ],
+      "responses": [
+        "Natural Language Processing (NLP) is a branch of AI that deals with the interaction between computers and human languages. Key concepts include:\n1. **Tokenization**: Breaking text into smaller units (tokens) like words or sentences.\n2. **Stemming/Lemmatization**: Reducing words to their root form.\n3. **NER**: Identifying entities like names, dates, or locations in text.\n4. **Part-of-Speech Tagging**: Identifying grammatical parts of speech."
+      ]
+    },
+    {
+      "tag": "ai_applications",
+      "patterns": [
+        "What are AI applications?",
+        "How is AI used?",
+        "AI in healthcare",
+        "AI in finance",
+        "Real-world uses of AI"
+      ],
+      "responses": [
+        "AI has numerous applications across industries:\n1. **Healthcare**: Diagnostic assistants and personalized medicine.\n2. **Finance**: Fraud detection and algorithmic trading.\n3. **Customer Service**: AI chatbots and virtual assistants.\n4. **Autonomous Vehicles**: Self-driving cars and drone delivery.\n5. **E-commerce**: Recommendation systems (e.g., Netflix, Amazon)."
+      ]
+    },
+    {
+      "tag": "sentiment_analysis_trigger",
+      "patterns": [
+        "Analyze a movie review",
+        "Is this review positive?",
+        "Sentiment analysis demo",
+        "How do you feel about this movie?",
+        "Check sentiment"
+      ],
+      "responses": ["I can help with that! Please provide the movie review you'd like me to analyze for sentiment."]
+    }
+  ]
+}
